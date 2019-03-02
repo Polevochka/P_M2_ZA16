@@ -15,7 +15,7 @@
     
 ##### Пример: Заменим нулик в левой матрице на последней строчке на 100 - теперь это самое большое число в 3-ем столбце
 ![Image alt](https://github.com/Polevochka/P_M2_ZA16/raw/master/MemoEdition/img/3.png)
-##### И нажмём на 'Поднять максимумы ВВЕРХ'
+##### И нажмём на 'Максимумы ВВЕРХ'
     Из скрина видно, что всё верно и число 100 переместилось наверх
 ![Image alt](https://github.com/Polevochka/P_M2_ZA16/raw/master/MemoEdition/img/4.png)
 
