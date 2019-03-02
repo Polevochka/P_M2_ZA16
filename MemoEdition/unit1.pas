@@ -91,7 +91,7 @@ end;
 procedure InputMatrix(var M: TMatrix; var rows: integer; var cols: integer; mem:TMemo);
 var i, j: integer;
     c: integer; // номер столбца элемента
-    el_str: string; // чтобы перебирать строку посимвольно
+    el_str: string; // строковое представление елемента матрицы
 
 begin
 
