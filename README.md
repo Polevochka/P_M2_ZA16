@@ -10,3 +10,6 @@
 
 ### В папке MemoEdition расположена реализация с Memo
 ![Image alt](https://github.com/Polevochka/P_M2_ZA16/raw/master/MemoEdition/img/1.png)
+
+### В папке StringGridEdition расположена реализация со StringGrid
+![Image alt](https://github.com/Polevochka/P_M2_ZA16/raw/master/StringGridEdition/img/1.png)
