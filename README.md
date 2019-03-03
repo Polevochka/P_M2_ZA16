@@ -9,7 +9,7 @@
     перемещения и завершать приложение
 
 ### В папке MemoEdition расположена реализация с Memo
-![1](img/1.png)
+![Memo1](MemoEdition/img/1.png)
 
 ### В папке StringGridEdition расположена реализация со StringGrid
-![2](img/1.png)
+![StringGrid1](StringGridEdition/img/1.png)
