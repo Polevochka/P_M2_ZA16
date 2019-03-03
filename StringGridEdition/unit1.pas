@@ -48,7 +48,7 @@ implementation
 
 { TForm1 }
 
-// удобно будет создать процедуру вывода матрицы в объект типа TMemo
+// удобно будет создать процедуру вывода матрицы в объект типа TStringGrid
 // 'var table :TStringGrid' т.к. мы будем изменять объект table - записывать в него
 // Хотя это не обязательно, работает и без, тупо для приличия делаем так
 procedure PrintMatrix(M: TMatrix; rows: integer; cols: integer; var table: TStringGrid);
