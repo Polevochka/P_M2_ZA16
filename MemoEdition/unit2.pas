@@ -67,7 +67,7 @@ begin
 end;
 
 {Процедура перемещает максимальные элементы в столбцах наверх}
-procedure MoveUp(var M:Tmatrix; rows: integer; cols: integer);
+procedure MoveUp(var M:TMatrix; rows: integer; cols: integer);
 var i_max: integer; // индекс максимального элемента для j - го столбца
     // вспомогательная переменная для перестановки элементов в матрице
     temp: integer;
@@ -110,7 +110,7 @@ begin
 end;
 
 {Процедура перемещает максимальные элементы в столбцах вниз}
-procedure MoveDown(var M:Tmatrix; rows: integer; cols: integer);
+procedure MoveDown(var M:TMatrix; rows: integer; cols: integer);
 var i_max: integer; // индекс максимального элемента для j - го столбца
     // вспомогательная переменная для перестановки элементов в матрице
     temp: integer;
@@ -153,4 +153,3 @@ begin
 end;
 
 end.
-
