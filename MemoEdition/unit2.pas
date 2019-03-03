@@ -16,8 +16,8 @@ type
 
 // прототипы функций которые ДОЛЖНЫ быть ВЫДНЫ в ДРУГИХ модулях(unit1)
 procedure FillMatrix(var M: TMatrix; rows: integer; cols: integer);
-procedure MoveUp(var M:Tmatrix; rows: integer; cols: integer);
-procedure MoveDown(var M:Tmatrix; rows: integer; cols: integer);
+procedure MoveUp(var M:TMatrix; rows: integer; cols: integer);
+procedure MoveDown(var M:TMatrix; rows: integer; cols: integer);
 // Интересно будет отметить, что функцию PosIndexMaxInCol
 // здесь не надо указывать, тк она нигде кроме как внутри функций
 // MoveUp и MoveDown не используется
