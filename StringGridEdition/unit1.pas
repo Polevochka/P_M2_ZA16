@@ -186,6 +186,10 @@ begin
   // Передвигаем максимумы в столбцах наверх
   MoveUp(M, rows, cols);
 
+  {Защита - максимумы ВЛЕВО-В НАЧАЛО СТРОКИ}
+  // Закомментируйте MoveUp и Расскоментируйте код ниже
+  // MoveLeft(M, rows, cols);
+
   // и выводим полученную матрицу в StringGrid2
   PrintMatrix(M, rows, cols, StringGrid2);
 end;
@@ -198,6 +202,10 @@ begin
 
   // Передвигаем максимумы в столбцах вниз
   MoveDown(M, rows, cols);
+
+  {Защита - максимумы ВПРАВО-В КОНЕЦ СТРОКИ}
+  // Закомментируйте MoveDown и Расскоментируйте код ниже
+  // MoveRight(M, rows, cols);
 
   // и выводим полученную матрицу в StringGrid2
   PrintMatrix(M, rows, cols, StringGrid2);
