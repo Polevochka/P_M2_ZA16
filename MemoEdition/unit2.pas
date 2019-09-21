@@ -29,16 +29,13 @@ procedure MoveDown(var M:TMatrix; rows: integer; cols: integer);
 implementation
 
 {Процедура заполнения матрицы рандомными числами}
-// здесь ВАЖНАЯ ПОПРАВОЧКА
-//т.к. этот модуль компилируется отдельно от основной программы
-// то randomize в нём работать не будет
-// randomize надо вызывать в основной программе
 //'var M' - т.к. меняем элементы матрицы
 //   rows - число строк матрицы
 //   cols - число столбцов матрицы
 procedure FillMatrix(var M: TMatrix; rows: integer; cols: integer);
 var i, j: integer;
 begin
+  randomize;  // для генератора случайных чисел - более случайное число
    for i:=1 to rows do
        for j:=1 to cols do
            M[i,j] := random(100); // рандомное число на отрезке [0;99]
