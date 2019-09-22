@@ -55,6 +55,7 @@ object Form1: TForm1
     FixedCols = 0
     FixedRows = 0
     Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    ScrollBars = ssNone
     TabOrder = 4
   end
   object StringGrid2: TStringGrid
@@ -64,6 +65,7 @@ object Form1: TForm1
     Width = 300
     FixedCols = 0
     FixedRows = 0
+    ScrollBars = ssNone
     TabOrder = 5
   end
 end
