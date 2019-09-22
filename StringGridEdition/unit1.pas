@@ -172,7 +172,7 @@ begin
   FillMatrix(M, rows, cols);
 
   // выводим матрицу в StringGrid1 - исходная матрица
-  PrintMatrix(M,rows,cols,StringGrid1);
+  PrintMatrix(M, rows, cols, StringGrid1);
 
 end;
 
