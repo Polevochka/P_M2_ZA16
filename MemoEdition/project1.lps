@@ -26,6 +26,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Unit2"/>
         <EditorIndex Value="1"/>
+        <CursorPos X="41"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
